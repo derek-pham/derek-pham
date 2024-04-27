@@ -1,0 +1,26 @@
+nav {
+    position: absolute;
+    background-color: #242424;
+    top: -15px;
+    right: 10vw;
+    width: 33vw;
+}
+
+nav ul {
+    width: 33vw;
+    padding: 0px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color: #242424;
+    border-radius: 10px;
+}
+
+li {
+    margin: 0px 10px;
+}
+
+li a {
+    color: wheat
+}
