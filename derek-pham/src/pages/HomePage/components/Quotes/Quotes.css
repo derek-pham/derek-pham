@@ -1,0 +1,18 @@
+.quotes-container {
+    display: flex;    
+    justify-content: end;
+    font-size: 28px;
+    flex-shrink: 1;
+    margin-right: 10vw;
+}
+
+@media (max-width: 1000px) {
+    .quotes-container {
+        display: flex;    
+        justify-content: end;
+        font-size: 28px;
+        flex-shrink: 1;
+        margin: 0 5vw;
+    }
+    
+}
