@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+h1 {
+    font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
+    font-size: 72px;    
+    margin: 49px;
+}
+
+.profile-container {
+    position: absolute;    
+    top: -0px;
+}
+
+.socials-container {
+    position: relative;
+    top: -30px;
+    margin-left: 49px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.socials-container a{
+    color: wheat;
+}
