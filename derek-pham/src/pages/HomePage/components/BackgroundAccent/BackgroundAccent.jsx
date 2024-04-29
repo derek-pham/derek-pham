@@ -8,7 +8,7 @@ function BackgroundAccent() {
             position: 'absolute', 
             zIndex: -2, 
             height: '50vh', 
-            width: '100vw', 
+            width: '100%', 
             backgroundColor: '#778A35',
             boxSizing: 'border-box',
             top:'0px',
