@@ -3,22 +3,26 @@
 h1 {
     font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
     font-size: 72px;    
-    margin: 49px;
+    position: relative;
+    top: -.8cm;
+    margin-left: 1.5cm;
+    margin-bottom: .5cm;
+
 }
 
 .profile-container {
-    position: absolute;    
-    top: -0px;
+    height: 150px;
 }
 
 .socials-container {
     position: relative;
     top: -30px;
-    margin-left: 49px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin-left: 1.5cm;
+    display: flexbox;
+    flex-grow: 1;
 }
 
-.socials-container a{
+.socials-container a {
     color: wheat;
+    margin-right: 1cm;
 }

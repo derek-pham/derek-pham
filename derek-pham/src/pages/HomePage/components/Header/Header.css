@@ -1,16 +1,18 @@
 nav {
+    display: flex;
+    justify-content: flex-end;
     position: absolute;
-    top: -15px;
-    right: 10vw;
-    width: 25vw;
+    right: 1vw;
 }
 
 nav ul {
     width: 25vw;
+    min-width: 220px; 
     padding: 0px;
+    margin-top: 0;
+    margin-right: 10vw;
     list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     text-align: center;
     background-color: #242424;
     border-radius: 10px;
@@ -18,8 +20,11 @@ nav ul {
 
 li {
     margin: 0px 10px;
+    flex-grow: 1;
+
 }
 
 li a {
-    color: wheat
+    color: wheat;
+    flex-grow: 1;
 }
