@@ -1,11 +1,11 @@
 import React from "react";
-// import './SkillsAndProjects.css'
+import './SkillsAndProjects.css'
 
 function SkillsAndProjects() {
 
     return (
         <>
-            <div className='place3'>
+            <div className='skillsandprojects-container'>
                 <h1>Skills & Projects</h1>
                 <div className="skillsandprojects-text">
                     <p>
