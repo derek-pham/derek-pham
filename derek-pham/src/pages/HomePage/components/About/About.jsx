@@ -5,8 +5,8 @@ function About() {
 
     return (
         <>
-            <div className='about-container'>
-                <h1>ABOUT ME</h1>
+            <div className='about-container' >
+                <h1 id='about-header'>ABOUT ME</h1>
                 <div className="aboutme-text">
                     <p>
                         When I was six years old, my cousin asked me what I wanted to be when I grow up and I said, "I want to be an INVENTOR!". I've always had a deep fascination in creating things and have admired the level of craftsmanship that can be found behind anything. This fascination first unfolded through <a href="#">GameMaker</a> at eight years old, where I learned about systems and workflows, created rooms and levels, animations and effects, and dealt with simple physics and enemy logic. Though these early projects remained unpublished and stayed as a small childhood sandbox hobby, they laid the groundwork for my future inventive pursuits.

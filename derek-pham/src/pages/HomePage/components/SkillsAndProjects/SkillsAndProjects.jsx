@@ -12,7 +12,7 @@ function SkillsAndProjects() {
     return (
         <>
             <div className='skillsandprojects-container'>
-                <h1>Skills & Projects</h1>
+                <h1 id="skillsandprojects-header">Skills & Projects</h1>
                 <div className="skillsandprojects-text">
                     <p>
                         With a robust foundation in both front-end and back-end development, my technical expertise spans&nbsp;
