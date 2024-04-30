@@ -5,7 +5,7 @@ import HomePage from '../pages/HomePage/HomePage.jsx';
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/derek-pham/" element={<HomePage />} />
     </Routes>
   );
 };
