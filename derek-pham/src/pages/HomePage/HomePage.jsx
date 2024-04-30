@@ -18,6 +18,9 @@ export default function HomePage() {
                     <Quotes />
                     <About />
                     <SkillsAndProjects />
+                    <div style={{
+                        height: '80px'
+                    }} />
                 </Border>
             </div >
         </>
