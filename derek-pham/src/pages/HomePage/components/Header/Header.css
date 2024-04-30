@@ -3,6 +3,7 @@ nav {
     justify-content: flex-end;
     position: absolute;
     right: 1vw;
+    z-index: 2;
 }
 
 nav ul {

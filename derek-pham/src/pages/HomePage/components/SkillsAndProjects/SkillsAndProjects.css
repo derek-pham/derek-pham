@@ -3,33 +3,49 @@
 .skillsandprojects-container {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0 15vw;;
+    margin: 0 15vw;
     margin-top: 5cm;
 }
 
 .skillsandprojects-container h1 {
-    margin: 0 10vw;;
+    margin: 0 10vw;
 }
 
 .skillsandprojects-text {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    margin: 0 10vw;;
+    margin: 0 10vw;
 }
 
 @media (max-width: 1000px) {
     .skillsandprojects-text {
         margin: 0;
     }
+
     .skillsandprojects-container h1 {
-        margin: 0 ;
+        margin: 0;
     }
-    
+
     .skillsandprojects-container {
         display: grid;
         grid-template-columns: 1fr;
         margin: 0 10vw;
         margin-top: 5cm;
     }
-    
+}
+
+.highlight {
+    animation: skillHighlight 0.3s forwards;
+    border-radius: 5px;
+}
+
+@keyframes skillHighlight {
+    from {
+        background-color: transparent;
+        color: inherit;
+    }
+    to {
+        background-color: goldenrod;
+        color: #242424;
+    }
 }

@@ -1,0 +1,22 @@
+.skillicons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 10vw;
+    margin-top: 1cm;
+}
+
+.skillicons-container img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.skillicons-container img:hover {
+    animation: highlight 0.3s forwards;
+}
+
+@keyframes highlight {
+    100% {
+        background-color: rgb(60, 60, 60);
+    }
+}

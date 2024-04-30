@@ -1,0 +1,28 @@
+.upper-border {
+    position: absolute;
+    z-index: 1;
+    height: calc((100vh - 20px)/2);
+    width: calc(100% - 20px);
+    border: 5px solid #242424;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    margin: 10px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.lower-border {
+    position: relative;
+    z-index: 0;
+    height: 100%;
+    padding-top: 40px;
+    width: calc(100% - 20px); 
+    border: 5px solid wheat;
+    border-radius: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}

@@ -5,7 +5,7 @@ function Profile() {
 
     return (
         <>
-            <div className="profile-container">
+            <div id="profile-container">
                 <h1>Derek Pham</h1>
                 <div className="socials-container">
                     <a href="https://github.com/derek-pham" target="_blank">Github</a>

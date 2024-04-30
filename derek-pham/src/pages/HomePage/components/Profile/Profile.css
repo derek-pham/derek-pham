@@ -10,8 +10,9 @@ h1 {
 
 }
 
-.profile-container {
-    height: 150px;
+#profile-container {
+    height: 150px;    
+    pointer-events: auto;
 }
 
 .socials-container {
