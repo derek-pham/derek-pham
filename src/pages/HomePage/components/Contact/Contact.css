@@ -8,6 +8,9 @@
   margin-right: auto;
 }
 
+#contacts-header {
+  margin: 0.5cm;
+}
 
 input,
 textarea {
