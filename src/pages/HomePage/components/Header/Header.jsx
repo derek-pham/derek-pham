@@ -9,7 +9,7 @@ function Header() {
                 <ul>
                     <li><a href="#about-header">About</a></li>
                     <li><a href="#skillsandprojects-header">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contacts-header">Contact</a></li>
                 </ul>
             </nav>
         </>
