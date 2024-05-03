@@ -7,7 +7,11 @@ import Quotes from './components/Quotes/Quotes'
 import About from './components/About/About'
 import SkillsAndProjects from './components/SkillsAndProjects/SkillsAndProjects'
 import Contact from './components/Contact/Contact'
+
+
 export default function HomePage() {
+
+    
     return (
         <>
             <div className='homepage'>
@@ -17,7 +21,7 @@ export default function HomePage() {
                     <Profile />
                     <Quotes />
                     <About />
-                    <SkillsAndProjects />                
+                    <SkillsAndProjects />
                     <Contact />
                     <div style={{
                         height: '80px'

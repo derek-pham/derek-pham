@@ -1,6 +1,6 @@
 import React from "react";
 
-function BackgroundAccent() {
+function BackgroundAccent({children}) {
 
     // In your component
     return (
@@ -13,7 +13,9 @@ function BackgroundAccent() {
             boxSizing: 'border-box',
             top:'0px',
             left:'0px'
-        }} />
+        }} >
+            {children}
+        </div>
     );
 
 }

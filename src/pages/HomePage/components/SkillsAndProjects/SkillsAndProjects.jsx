@@ -22,14 +22,15 @@ function SkillsAndProjects() {
                         <span className={hoveredSkill === 'TypeScript' ? 'highlight' : ''}>TypeScript</span>,&nbsp;
                         <span className={hoveredSkill === 'Node.js' ? 'highlight' : ''}>Node.js</span>,&nbsp;
                         <span className={hoveredSkill === 'MongoDB' ? 'highlight' : ''}>MongoDB</span>, and&nbsp;
-                        <span className={hoveredSkill === 'React' ? 'highlight' : ''}>React</span>. 
-                        A standout project from my portfolio is 'BiteMap', a capstone project developed during my software engineering course at UTS in collaboration with trainers and mentors from the Institute of Data. This project is&nbsp;                  
-                        <span className={hoveredSkill === 'BiteMap' ? 'highlight' : ''}>an interactive platform that allows food enthusiasts and cultural explorers to dive into the rich diversity of global cuisines.It earned the 'Top Capstone Project' award</span>, allowing me to refine my skills in integrating diverse technologies to enhance user experiences. Moreover, I am also proficient in using tools like&nbsp;
+                        <span className={hoveredSkill === 'React' ? 'highlight' : ''}>React</span>.
+                        A standout project from my portfolio is 'BiteMap', a capstone project developed during my software engineering course at UTS in collaboration with trainers and mentors from the Institute of Data. This project is&nbsp;
+                        <span className={hoveredSkill === 'BiteMap' ? 'highlight' : ''}>an interactive platform that allows food enthusiasts and cultural explorers to dive into the rich diversity of global cuisines.It earned the 'Top Capstone Project' award</span>, allowing me to refine my skills in integrating diverse technologies to enhance user experiences. 
+                        Moreover, I am also proficient in using tools like&nbsp;
                         <span className={hoveredSkill === 'Git' ? 'highlight' : ''}>Git</span> for version control to streamline project workflows and enhance team collaboration. I am actively expanding my expertise in emerging technologies and advancements in software development to ensure my skills remain ready to meet the challenges of future projects.
                     </p>
                 </div>
-                <SkillIcons onSkillEnter={handleSkillEnter} onSkillLeave={handleSkillLeave}/>
-                <Projects onSkillEnter={handleSkillEnter} onSkillLeave={handleSkillLeave}/>
+                <SkillIcons onSkillEnter={handleSkillEnter} onSkillLeave={handleSkillLeave} />
+                <Projects onSkillEnter={handleSkillEnter} onSkillLeave={handleSkillLeave} />
             </div>
         </>
     );
