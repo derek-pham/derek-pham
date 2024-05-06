@@ -34,7 +34,7 @@ function Quotes() {
   return (
     <div className="quotes-container">
       <p id="quote-text" className={fade ? 'animate__animated animate__fadeIn' : 'animate__animated animate__fadeOut'}>
-        "{quoteData[currentQuoteIndex].quote}" &nbsp;
+        " {quoteData[currentQuoteIndex].quote} " &nbsp;
       </p>
       <br />
       <p id="speaker" className={fade ? 'animate__animated animate__fadeIn' : 'animate__animated animate__fadeOut'}>
