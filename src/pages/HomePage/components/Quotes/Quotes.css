@@ -8,8 +8,9 @@
 
 @media (max-width: 1000px) {
     .quotes-container {
-        display: flex;    
-        justify-content: end;
+        display: flex;
+        flex-wrap: wrap;    
+        justify-content: center;
         font-size: 28px;
         flex-shrink: 1;
         margin: 0 5vw;
