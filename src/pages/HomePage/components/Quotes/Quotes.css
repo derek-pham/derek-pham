@@ -1,18 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
 .quotes-container {
-    display: flex;    
+    display: flex;
+    align-items: center;
     justify-content: end;
     font-size: 28px;
     flex-shrink: 1;
     margin-right: 10vw;
 }
 
+#quote-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Tangerine';
+    font-size: 48px;
+    margin: 48px 0 48px 5%;
+}
+
+#speaker {
+}
+
 @media (max-width: 1000px) {
     .quotes-container {
         display: flex;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;
+        text-align: center;    
         justify-content: center;
         font-size: 28px;
         flex-shrink: 1;
         margin: 0 5vw;
+    }
+
+    #speaker {
+        margin-top: 0;
     }
 }

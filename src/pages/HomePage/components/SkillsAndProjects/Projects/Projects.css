@@ -24,12 +24,15 @@
     right: -74px;
     top: -80px;
     width: 150px;
-    font-size: 14px;
+    font-size: 13px;
     border-radius: 5px;
     padding: 0px 1px;
     text-align: center;
     transform-origin: center;
     overflow: hidden;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #242424;
 }
 
 #bitemap img {

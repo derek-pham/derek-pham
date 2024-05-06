@@ -23,8 +23,8 @@ function Quotes() {
 
   return (
     <div className="quotes-container">
-      <p>"{quoteData[currentQuoteIndex].quote}" &nbsp;</p> <br />
-      <p>— {quoteData[currentQuoteIndex].speaker}</p>
+      <p id="quote-text">" {quoteData[currentQuoteIndex].quote} " &nbsp;</p> <br />
+      <p id="speaker">— {quoteData[currentQuoteIndex].speaker}</p>
     </div>
   );
 }

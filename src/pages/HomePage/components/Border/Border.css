@@ -1,7 +1,7 @@
 .upper-border {
     position: absolute;
     z-index: 1;
-    height: calc((100vh - 20px)/2);
+    height: 440px;
     width: calc(100% - 20px);
     border: 5px solid #242424;
     border-bottom: none;
@@ -25,4 +25,17 @@
     box-sizing: border-box;
     top: 0;
     left: 0;
+}
+
+@media (max-width: 1000px) {
+    .upper-border {
+        height: 540px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .upper-border {
+        height: 640px;
+    }
 }
