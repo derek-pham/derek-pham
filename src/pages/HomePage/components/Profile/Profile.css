@@ -26,4 +26,11 @@ h1 {
 .socials-container a {
     color: wheat;
     margin-right: 1cm;
+    transition: color 0.1s ease, background-color 0.1s ease, border-radius 0.1s ease;
+}
+
+.socials-container a:hover {
+    color: #242424;
+    background-color: goldenrod;
+    border-radius: 5px;
 }

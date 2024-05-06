@@ -28,6 +28,7 @@ li {
 li a {
     color: wheat;
     flex-grow: 1;
+    transition: color 0.1s ease, background-color 0.1s ease, border-radius 0.1s ease;
 }
 
 li a:hover {
