@@ -29,3 +29,10 @@ li a {
     color: wheat;
     flex-grow: 1;
 }
+
+li a:hover {
+    color: #242424;
+    background-color: goldenrod;
+    border-radius: 5px;
+    flex-grow: 1;
+}
