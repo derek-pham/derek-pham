@@ -77,6 +77,10 @@
     animation: cardHighlight 0.5s forwards;
 }
 
+#reciperumble img {
+    border-radius: 35px;
+}
+
 @keyframes starAnimation {
     0% {
         transform: translateY(0) rotate(0deg) scale(1);
