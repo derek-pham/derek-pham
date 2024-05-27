@@ -49,6 +49,20 @@
     animation: cardHighlight 0.5s forwards;
 }
 
+.project img {
+    width: 100px;
+}
+
+.project {
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    padding: 50px 25px;
+}
+
+.project:hover {
+    animation: cardHighlight 0.5s forwards;
+}
+
 #wip img {
     width: 100px;
 }
